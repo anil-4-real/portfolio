@@ -9,8 +9,19 @@ const Header = () => {
           Anil Kumar MR
         </a>
       </div>
-      <div id="navbar" className={toggleButton ? "navbar-mobile" : "navbar"}>
-        <a href="#home" className="link">
+      <div
+        id="navbar"
+        onClick={() => {
+          const navEl = document.getElementsByClassName("navbar-mobile")[0];
+          if (navEl === undefined) {
+            return;
+          } else {
+            setToggleButton(!toggleButton);
+          }
+        }}
+        className={toggleButton ? "navbar-mobile" : "navbar"}
+      >
+        <a href="#" onClick={() => window.scrollTo(0, 0)} className="link">
           Home
         </a>
         <a href="#about" className="link">

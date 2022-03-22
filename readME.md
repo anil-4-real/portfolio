@@ -6,7 +6,7 @@
 * * React
 * * Css
 * * JavaScript
-* * Formsubmit.com
+* * Formsubmit.co
 
 
 # click [here](https://anilkumarmr.netlify.app/) to visit my portfolio

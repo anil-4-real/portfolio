@@ -1,5 +1,5 @@
 # Welcome to my portfolio
-* This is my first portfolio completely built from scratch, with design inspiration from [niteshseram.in](niteshseram.in)
+* This is my first portfolio completely built from scratch, with design inspiration from [niteshseram.in](https://niteshseram.in)
 
 
 * Tools used 

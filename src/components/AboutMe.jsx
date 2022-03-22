@@ -14,14 +14,14 @@ const AboutMe = () => {
         development.
       </p>
       <p className="section-paragraph">
-        I've always wanted to build some kind of apps/websites, so during my
-        previous job I enrolled for a weekend <span>Bootcamp</span> and started
-        learning about MERN stack.
+        I was always into tech and gadgets and I've always wanted to build some
+        kind of apps / websites, so during my previous job I enrolled for a
+        weekend <span>Bootcamp</span> and started learning about MERN stack.
       </p>
       <p className="section-paragraph">
         I am still learning more about web development everyday and I am not
-        planning to stop anytime soon. The process of learning is very much
-        enjoyable.
+        planning to stop anytime soon because the process of learning is very
+        much enjoyable.
       </p>
       <h2 className="section-subheading">Interests :</h2>
       <p className="section-paragraph">
@@ -46,10 +46,11 @@ const AboutMe = () => {
       <h2 className="section-subheading">Work Experience :</h2>
       <p className="section-paragraph">
         I have worked as a<span> QA Engineer</span> from Feb 2020 to Feb 2022 at
-        <span> LG Soft India.</span>
+        <span> LG Soft India.</span> The domain was
+        <span> Vehicle Infotainment and ADAS.</span>
       </p>
       <p className="section-paragraph">
-        The domain was <span> Vehicle Infotainment and ADAS.</span>
+        This was my first fulltime job and kickstarted my journey in IT sector.
       </p>
     </div>
   );

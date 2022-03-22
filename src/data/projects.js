@@ -19,7 +19,7 @@ const projects = [
   {
     name: "Stackoverflow Clone",
     description:
-      'Clone of one of the most important website for developers "stackoverflow.com". This clone is not perfect and i am aware of that, but feature wise it is similar to the original',
+      'Clone of one of the most important website for developers "stackoverflow.com". This clone is not perfect and I am aware of that, but feature wise it is similar to the original',
     tools: [
       "Node.js",
       "React",

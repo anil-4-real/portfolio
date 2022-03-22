@@ -63,7 +63,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <h2 className="section-subheading">Other tools:</h2>
+      <h2 className="section-subheading">Other tools :</h2>
       <p className="section-paragraph">Postman</p>
       <p className="section-paragraph">JWT</p>
       <p className="section-paragraph">Formik</p>

@@ -14,11 +14,15 @@ const Hero = () => {
           Welcome to my portfolio, where you can find about myself and my work.
         </p>
         <div className="btn-group">
-          <a href="/contactme" className="contact-me-btn">
+          <a href="#contact" className="contact-me-btn">
             CONTACT
           </a>
-          <a href="/contactme" className="resume-btn">
-            &#x21e9;&nbsp;RESUME
+          <a
+            target="_blank"
+            href="https://drive.google.com/file/d/1RwvpaBft9Vq-4jTh6Y4uC56PQVbHjSdx/view?usp=sharing"
+            className="resume-btn"
+          >
+            RESUME
           </a>
         </div>
       </div>

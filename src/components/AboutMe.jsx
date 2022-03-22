@@ -2,9 +2,11 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <div className="container" id="about">
+    <div className="container">
       <hr />
-      <h1 className="section-header">About</h1>
+      <h1 className="section-header" id="about">
+        About
+      </h1>
       <h2 className="section-subheading">Hello :</h2>
       <p className="section-paragraph">
         I'm <span>Anil Kumar MR.</span> I am a MERN stack Developer based in

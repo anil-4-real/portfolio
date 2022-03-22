@@ -1,42 +1,45 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 const Header = () => {
   const [toggleButton, setToggleButton] = useState(false);
   return (
     <div className="header fixed">
       <div className="brand-container">
-        <a href="/home" className="brand-link">
+        <a href="#" className="brand-link">
           Anil Kumar MR
         </a>
       </div>
-      <div
+      <nav
         id="navbar"
         onClick={() => {
+          //collapse nav menu onClick if and only if the navbar has class "navbar-mobile"
           const navEl = document.getElementsByClassName("navbar-mobile")[0];
+          //don't do anything if navEl is undefined, means navbar-mobile doesn't exist
           if (navEl === undefined) {
             return;
+            //if navEL exists, then change the toggle to collapse the navmenu onclick
           } else {
             setToggleButton(!toggleButton);
           }
         }}
         className={toggleButton ? "navbar-mobile" : "navbar"}
       >
-        <a href="#" onClick={() => window.scrollTo(0, 0)} className="link">
+        <span onClick={() => window.scrollTo(0, 0)} className="link">
           Home
-        </a>
+        </span>
         <a href="#about" className="link">
           About
         </a>
-        <a href="/projects" className="link">
+        <a href="#projects" className="link">
           Projects
         </a>
-        <a href="/skills" className="link">
+        <a href="#skills" className="link">
           Skills
         </a>
         <a href="/contactme" className="link">
           Contact
         </a>
-      </div>
+      </nav>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         height="24px"

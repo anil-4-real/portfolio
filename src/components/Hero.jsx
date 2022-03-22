@@ -13,11 +13,21 @@ const Hero = () => {
         <p className="misc-text">
           Welcome to my portfolio, where you can find about myself and my work.
         </p>
-        <a href="/contactme" className="contact-me-btn">
-          CONTACT ME
-        </a>
+        <div className="btn-group">
+          <a href="/contactme" className="contact-me-btn">
+            CONTACT
+          </a>
+          <a href="/contactme" className="resume-btn">
+            &#x21e9;&nbsp;RESUME
+          </a>
+        </div>
       </div>
-      <img className="hero-image" src={heroImage} />
+
+      <img
+        className="hero-image"
+        alt="decorative-absctract-from-freepik.com"
+        src={heroImage}
+      />
     </div>
   );
 };

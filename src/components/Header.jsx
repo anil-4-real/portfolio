@@ -6,7 +6,7 @@ const Header = () => {
     <div className="header fixed">
       <div className="brand-container">
         <a href="#" className="brand-link">
-          Anil Kumar MR
+          AK
         </a>
       </div>
       <nav

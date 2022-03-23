@@ -49,7 +49,7 @@ body {
 .fixed {
   position: fixed;
   top: 0;
-  height: 100px;
+  height: 65px;
   max-width: 1280px;
   background: var(--primary-color);
   margin-right: 1rem;
@@ -69,13 +69,11 @@ body {
   cursor: pointer;
 }
 
-.link:active {
-  color: var(--secondary-color);
-}
-
 .menu-button {
   display: none;
   position: fixed;
+  height: 30px;
+  width: 30px;
   right: 20px;
 }
 
@@ -89,7 +87,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  top: 80px;
+  top: 65px;
 }
 
 @media (max-width: 900px) {
@@ -489,7 +487,7 @@ form {
 }
 
 .input {
-  width: 96%;
+  width: 94%;
   font-family: "Montserrat", sans-serif;
   display: block;
   color: var(--secondary-color);
@@ -502,12 +500,13 @@ form {
 }
 
 .message {
-  width: 96%;
+  width: 94%;
   font-family: "Montserrat", sans-serif;
   display: block;
   color: var(--secondary-color);
   padding: 10px;
   font-weight: bold;
+  border: none;
   margin-bottom: 10px;
   background-color: var(--text-color);
   outline: 2px solid var(--secondary-color);
@@ -535,7 +534,7 @@ form {
 }
 
 .submit-btn {
-  width: 48%;
+  width: 46%;
   font-family: "Montserrat", sans-serif;
   display: block;
   color: var(--text-color);

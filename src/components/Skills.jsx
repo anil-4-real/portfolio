@@ -10,6 +10,7 @@ import python from "../assets/images/python.png";
 import mongodb from "../assets/images/mongodb.png";
 import git from "../assets/images/git.png";
 import github from "../assets/images/github.png";
+import mysql from "../assets/images/mysql.png";
 
 const Skills = () => {
   return (
@@ -50,6 +51,10 @@ const Skills = () => {
           <p className="img-title">MongoDB</p>
         </div>
         <div className="img-container">
+          <img className="skills-img" src={mysql} alt="mysql" />
+          <p className="img-title">MySQL</p>
+        </div>
+        <div className="img-container">
           <img className="skills-img" src={git} alt="git" />
           <p className="img-title">git</p>
         </div>
@@ -63,7 +68,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <h2 className="section-subheading">Other tools :</h2>
+      <h2 className="section-subheading">Other skills :</h2>
       <p className="section-paragraph">Postman</p>
       <p className="section-paragraph">JWT</p>
       <p className="section-paragraph">Formik</p>

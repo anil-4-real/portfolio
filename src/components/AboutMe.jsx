@@ -20,8 +20,7 @@ const AboutMe = () => {
       </p>
       <p className="section-paragraph">
         I am still learning more about web development everyday and I am not
-        planning to stop anytime soon because the process of learning is very
-        much enjoyable.
+        planning to stop anytime soon.
       </p>
       <h2 className="section-subheading">Interests :</h2>
       <p className="section-paragraph">

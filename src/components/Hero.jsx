@@ -10,16 +10,14 @@ const Hero = () => {
         </h2>
         <p className="subtitle">A web developer based in India</p>
 
-        <p className="misc-text">
-          Welcome to my portfolio, where you can find about myself and my work.
-        </p>
+        <p className="misc-text">Welcome to my portfolio</p>
         <div className="btn-group">
           <a href="#contact" className="contact-me-btn">
             CONTACT
           </a>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1RwvpaBft9Vq-4jTh6Y4uC56PQVbHjSdx/view?usp=sharing"
+            href="https://drive.google.com/file/d/1kXD5-YtxrY6J9GbjjpV2oyTc4CaAU3WV/view?usp=sharing"
             className="resume-btn"
           >
             RESUME

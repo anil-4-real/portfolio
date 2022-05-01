@@ -27,6 +27,7 @@ const ContactMe = () => {
             placeholder="Email Address"
             required
           />
+          <input type="hidden" name="_captcha" value="false"></input>
 
           <textarea
             placeholder="Your Message"

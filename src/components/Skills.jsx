@@ -73,8 +73,13 @@ const Skills = () => {
       <p className="section-paragraph">JWT</p>
       <p className="section-paragraph">Formik</p>
       <p className="section-paragraph">Auth0</p>
+      <p className="section-paragraph">AWS</p>
+      <p className="section-paragraph">Heroku</p>
+      <p className="section-paragraph">Styled Components</p>
+      <p className="section-paragraph">Tailwind CSS</p>
       <p className="section-paragraph">Mongoose</p>
       <p className="section-paragraph">React Bootstrap</p>
+      <p className="section-paragraph">Socket.io</p>
     </div>
   );
 };

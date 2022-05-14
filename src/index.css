@@ -559,9 +559,12 @@ form {
 }
 
 .links-container {
+  max-width: 700px;
+  margin:0 auto;
+  padding: 0 20px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 2rem;
 }

@@ -16,23 +16,7 @@ const projects = [
     frontendSrc: "https://github.com/anil-4-real/expense-tracker-fe",
     deployedUrl: "https://expens3-track3r.netlify.app/",
   },
-  {
-    name: "Stackoverflow Clone",
-    description:
-      'Clone of one of the most important website for developers "stackoverflow.com". This clone is not as perfect as the real one, but feature wise it is similar to the original.',
-    tools: [
-      "Node.js",
-      "React",
-      "CSS",
-      "Auth0",
-      "MongoDB",
-      "Express.js",
-      "OAuth",
-    ],
-    backendSrc: "https://github.com/anil-4-real/stackoverflow_clone_BE",
-    frontendSrc: "https://github.com/anil-4-real/Stackoverflow_Clone_FE",
-    deployedUrl: "https://festive-lovelace-6da062.netlify.app/",
-  },
+
   {
     name: "Pic Stack",
     description:
@@ -51,6 +35,43 @@ const projects = [
     deployedUrl: "https://poetic-begonia-703eea.netlify.app/",
   },
   {
+    name: "MD Pro.",
+    description:
+      "A simple markdown editor/viewer where you can import you existing markdowns or create a new one and save it in your account, you can also download the markdown files you created.",
+    tools: [
+      "React",
+      "Tailwind CSS",
+      "Headless UI",
+      "Node.js",
+      "Express.js",
+      "JWT",
+      "Mongoose",
+      "MongoDB",
+      "Toastify",
+      "FileSaver.js",
+    ],
+    backendSrc: "https://github.com/anil-4-real/MD_Pro_BE",
+    frontendSrc: "https://github.com/anil-4-real/MD_Pro_FE",
+    deployedUrl: "https://md-pro.netlify.app/",
+  },
+  {
+    name: "Stackoverflow Clone",
+    description:
+      'Clone of one of the most important website for developers "stackoverflow.com". This clone is not as perfect as the real one, but feature wise it is similar to the original.',
+    tools: [
+      "Node.js",
+      "React",
+      "CSS",
+      "Auth0",
+      "MongoDB",
+      "Express.js",
+      "OAuth",
+    ],
+    backendSrc: "https://github.com/anil-4-real/stackoverflow_clone_BE",
+    frontendSrc: "https://github.com/anil-4-real/Stackoverflow_Clone_FE",
+    deployedUrl: "https://festive-lovelace-6da062.netlify.app/",
+  },
+  {
     name: "Not Zoom",
     description:
       "As the name suggests, this is not zoom but a simple to use video conference app. You can join a room and start a video call with your friends. You can also host a room and invite your friends to join.",
@@ -60,7 +81,7 @@ const projects = [
       "Node.js",
       "Express.js",
       "Socket.io",
-      "WebRTC",
+      "Simple-Peer",
     ],
     backendSrc: "https://github.com/anil-4-real/not-zoom-be",
     frontendSrc: "https://github.com/anil-4-real/not-zoom-fe",

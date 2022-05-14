@@ -8,9 +8,9 @@ const Projects = () => {
       <hr />
       <h1 className="section-header">Projects</h1>
       <div className="card-container">
-      {projects.map((project, i) => {
-        return <ProjectCard key={i} data={project} />;
-      })}
+        {projects.map((project, i) => {
+          return <ProjectCard key={i} data={project} />;
+        })}
       </div>
     </div>
   );

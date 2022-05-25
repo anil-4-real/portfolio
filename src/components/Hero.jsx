@@ -17,7 +17,7 @@ const Hero = () => {
           </a>
           <a
             target="_blank"
-            href="https://drive.google.com/file/d/1kXD5-YtxrY6J9GbjjpV2oyTc4CaAU3WV/view?usp=sharing"
+            href="https://drive.google.com/file/d/1NhS5K07n9f-e8YnCIxHVsqyA9B-Rb37e/view?usp=sharing"
             className="resume-btn"
           >
             RESUME

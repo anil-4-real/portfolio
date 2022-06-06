@@ -32,7 +32,7 @@ const projects = [
     ],
     backendSrc: "https://github.com/anil-4-real/picstack-be",
     frontendSrc: "https://github.com/anil-4-real/picstack-fe",
-    deployedUrl: "https://poetic-begonia-703eea.netlify.app/",
+    deployedUrl: "https://picstack.netlify.app/",
   },
   {
     name: "MD Pro.",
